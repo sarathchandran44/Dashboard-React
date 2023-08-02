@@ -31,8 +31,8 @@ const Card = (props) => {
         background: param.color.backGround,
         boxShadow: param.color.boxShadow,
       }}
-      layoutId="expandableCard"
-      onClick={setExpanded}
+      // layoutId="expandableCard"
+      // onClick={setExpanded}
     >
        <span>{param.title}</span>
       <div className="radialBar">
@@ -64,18 +64,18 @@ function ExpandedCard({ param, setExpanded }) {
         background: param.color.backGround,
         boxShadow: param.color.boxShadow,
       }}
-      layoutId="expandableCard"
+      // layoutId="expandableCard"
     >
-<span>{param.title}</span>
+{/* <span>{param.title}</span>
       <div style={{ alignSelf: "flex-end", cursor: "pointer", color: "white" }}>
       
         <UilTimes onClick={setExpanded} />
       </div>
         
-      {/* <div className="chartContainer">
+      <div className="chartContainer">
         <Chart options={data.options} series={param.series} type="area" />
-      </div> */}
-      <span>Last 24 hours</span>
+      </div>
+      <span>Last 24 hours</span> */}
     </motion.div>
   );
 }
