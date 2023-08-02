@@ -1,0 +1,32 @@
+.Charts3{
+    display: flex;
+    flex: 1;
+    height: 7rem !important;
+    border-radius: 0.7rem;
+    color: white;
+    padding: 1rem;
+    position: relative;
+    cursor: pointer;
+    
+  }
+  .Charts3:hover {
+    box-shadow: none !important;
+  }
+  
+  
+  @media screen and (max-width: 1200px) {
+    .Charts3{
+      flex-direction: column;
+    }
+    .parentContainer{
+      height: 9rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px)
+  {
+    .Charts3{
+      width: 90%;
+    }
+  }
+  

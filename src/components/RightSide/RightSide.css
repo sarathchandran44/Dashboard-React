@@ -1,0 +1,8 @@
+.bell {
+  position: relative;
+}
+.bell img {
+  position: absolute;
+  top: 30px;
+  right: 15px;
+}

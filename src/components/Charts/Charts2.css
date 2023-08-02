@@ -1,0 +1,30 @@
+.Charts2{
+    display: flex;
+    flex: 1;
+    height: 7rem !important;
+    border-radius: 0.7rem;
+    color: white;
+    padding: 1rem;
+    position: relative;
+    cursor: pointer;
+  }
+  .Charts2:hover {
+    box-shadow: none !important;
+  }
+  
+  
+  @media screen and (max-width: 1200px) {
+    .Charts2{
+      flex-direction: column;
+    }
+    .parentContainer{
+      height: 9rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px)
+  {
+    .Charts2{
+      width: 90%;
+    }
+  }
